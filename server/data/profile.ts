@@ -1,0 +1,111 @@
+export const profile = {
+  name: "HUYNH LE DUY LINH",
+  role: "Web Developer",
+  location: "Ho Chi Minh City, Vietnam",
+  dob: "13/11/2003",
+  phone: "0974440943",
+  email: "huynhleduylinh1311@gmail.com",
+  linkedin: "linkedin/duylinh",
+  github: "github/duylinh13",
+  summary:
+    "As a passionate Frontend Developer, I specialize in crafting dynamic and responsive web applications using React, Next.js, and Node.js. With a strong foundation in HTML, CSS, JavaScript and related libraries/frameworks, I excel at designing intuitive user interfaces (UI), seamlessly integrating APIs, and optimizing performance. My focus is on writing clean, maintainable code.",
+  skills: {
+    programming: ["JavaScript", "TypeScript"],
+    frontend: [
+      "React.js",
+      "Next.js",
+      "HTML5/CSS3 (SCSS)",
+      "Tailwind CSS",
+      "Shadcn/UI",
+      "Antd",
+      "i18n",
+    ],
+    data: ["TanStack Query", "SWR", "Redux", "Zustand"],
+    backend: ["Node.js", "MongoDB", "Supabase", "JWT"],
+    tools: ["VSCode", "Figma", "Git", "Jira", "Trello"],
+  },
+  experience: [
+    {
+      title: "FRONTEND DEVELOPER",
+      company: "KKAL ENTERTAINMENT",
+      time: "09/2024 - Present",
+      location: "Korea",
+      bullets: [
+        "Developed and maintained responsive, high-performance web applications for international clients using React.js and Next.js.",
+        "Built reusable and modular UI components with hooks and Context API to manage state efficiently and reduce re-renders.",
+        "Leveraged SSR, SSG, ISR to optimize load times and SEO.",
+        "Improved performance via lazy loading, code splitting, and image optimization (WebP).",
+        "Used React Query and SWR for data fetching, caching, and state synchronization.",
+        "Implemented Tailwind CSS to streamline responsive UI and reduce CSS bundle size.",
+        "Delivered projects: comic landing pages, hobby sharing platforms, event websites (music/sports/travel).",
+      ],
+    },
+    {
+      title: "FRONTEND DEVELOPER (Intern)",
+      company: "TEKNIX VN",
+      time: "05/2024 - 07/2024",
+      location: "Ho Chi Minh City, Vietnam",
+      bullets: [
+        "Commercial website development using Payload CMS.",
+        "Configured development environments for collaboration with Node.js.",
+        "Built admin UI (TypeScript) for e-commerce: categories, product viewing, checkout UI.",
+        "Integrated APIs via Payload CMS and used MongoDB for data storage.",
+      ],
+    },
+  ],
+  projects: [
+    {
+      name: "KPA EDU",
+      time: "04/2025 - 07/2025",
+      deploy: "https://www.kpaedu.online",
+      teamSize: 6,
+      role: "Frontend Developer",
+      stack: ["Next.js", "Tailwind CSS", "TypeScript", "Supabase", "Shadcn/UI"],
+      description:
+        "Online learning platform for healthcare-related courses. Users register, purchase courses, and manage profiles. Supports medical license/certification verification.",
+      bullets: [
+        "Developed responsive UI with Next.js + Tailwind.",
+        "Built Homepage, Course Listing, Auth, User Dashboard.",
+        "Integrated Supabase Authentication for secure sign-up/login.",
+        "Built forms for user data including medical license numbers.",
+        "Contributed to admin dashboard UI (users/courses).",
+        "Collaborated with backend to ensure validation & smooth data flow.",
+      ],
+    },
+    {
+      name: "KKAL live",
+      time: "2025",
+      deploy: "https://www.kkal.live",
+      teamSize: 4,
+      role: "Frontend Developer",
+      stack: ["Next.js", "TypeScript", "Tailwind CSS"],
+      description:
+        "Platform for creative contests: explore events, view submissions, vote, and register. Focus on smooth UX, fast load, SEO, and responsive design.",
+      bullets: [
+        "Built Homepage, Event Listing, Voting, Submission Details, FAQ.",
+        "Implemented registration forms with validation.",
+        "Optimized SEO with semantic HTML, meta tags, Open Graph.",
+        "Improved performance with lazy loading, image optimization, bundle reduction.",
+        "Converted Figma designs into pixel-perfect UI.",
+      ],
+    },
+  ],
+  education: [
+    {
+      program: "Software Engineering",
+      school: "Gia Dinh University",
+      time: "08/2021 - 11/2024",
+      location: "Ho Chi Minh City, Vietnam",
+    },
+    {
+      program: "Fullstack Developer",
+      school: "MindX Technology School",
+      time: "04/2023 - 01/2024",
+      location: "Ho Chi Minh City, Vietnam",
+    },
+  ],
+  target: {
+    shortTerm: "Seeking a Fresher Frontend Developer position this year.",
+    longTerm: "Aspire to become a Junior Frontend Developer within two years.",
+  },
+};
